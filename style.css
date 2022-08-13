@@ -73,7 +73,26 @@ nav ul li a{
     display: none;
   }
   .header .user-box{
-    display: none;
+    /* display: none; */
+    top: 0px;
+    right: 0px;
+  }
+
+  .header .user-box img{
+    padding-top: 244px;
+    width: 200px;
+    margin-bottom: -95px;
+    z-index: -1;
+  }
+  .header .text-box {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 9999999;
+    background: rgba(0,0,0,0.2);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
   .header .text-box h1{
     font-size: 25px;
